@@ -43,11 +43,11 @@
           inset 0 1px 0 rgba(255, 255, 255, 0.04);
       }
 
-      #empty {
+      /* #empty {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         gap: 10px;
-      }
+      } */
 
       .showCard {
         cursor: pointer;
@@ -170,7 +170,7 @@
           </div>
 
           <!-- Empty State -->
-          <div id="empty" class="text-left py-12 text-sm text-[var(--muted)]">
+          <div id="empty" class="text-left py-12 text-sm text-[var(--muted)] grid grid-cols-2 md:grid-cols-3  gap-5">
             <!-- <h1 id="empty"></h1> -->
           </div>
 
